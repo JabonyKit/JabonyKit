@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+.pc{
+	display: block;
+	overflow: hidden;
+	background: #ddd;
+}
+.luodiye{
+	display: none;
+}
+
+
+
+
+/*轮播*/
+.pcimg02{
+	width: 100%;
+	display: block;
+}
+
+/*简介*/
+.pcmain01{
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.pctit{
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	width: 225px;
+}
+.line{
+	width: 60px;
+	height: 18px;
+	border-bottom: solid 1px #ccc;
+}
+.pctext01{
+	font-size: 18px;
+	font-weight: 600;
+	color: #aaa;
+	line-height: 36px;
+}
+.pctextbox01{
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+}
+.pctext02{
+	margin: 45px auto 15px;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.pctext03{
+	font-size: 16px;
+}
+.pcimg03{
+	margin: 60px auto 15px;
+	width: 750px;
+	display: block;
+
+}
+
+
+/*价值*/
+.pcmain02{
+	margin: 0 auto;
+	padding: 40px 0 35px;
+	background: #f8f8f8;
+}
+.pcbox01{
+	margin: 0 auto;
+	padding: 30px 0;
+	width: 1020px;
+	display: flex;
+	justify-content: space-between;
+}
+.pcbox02{
+	width: 300px;
+	text-align: center;
+	color: #333;
+}
+.pcimg04{
+	margin: 0 auto;
+	width: 90px;
+	display: block;
+}
+.pctext04{
+	margin: 45px auto 5px;
+	font-size: 24px;
+}
+.pctext05{
+	line-height: 24px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+/*核心功能*/
+.pcmain03{
+	margin: 75px auto 15px;
+	background: #fff;
+}
+.exex4{
+	margin: 0 auto;
+	width: 1020px;
+}
+.pcbox03{
+	margin: 15px auto 45px;
+	width: 900px;
+	display: flex;
+	justify-content: flex-start;
+	vertical-align: middle;
+}
+.pcimg05{
+	width: 480px;
+	height: 507px;
+	display: block;
+}
+.pcbox04{
+	margin: 90px 30px;
+	width: 400px;
+	text-align: center;
+	color: #333;
+	vertical-align: middle;
+}
+.pcbox05{
+	margin: 0 auto;
+	display: inline-table;
+}
+.pcimg06{
+	margin: 15px;
+	width: 120px;
+}
+.pctext061{
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 50px;
+	color: #00b0f0;
+}
+.pctext07{
+	letter-spacing: 1px;
+	line-height: 18px;
+	color: #333;
+}
+
+
+/*动态数值*/
+.pcmain04{
+	padding: 60px 0;
+	width: 100%;
+	background: url("../images/pc_20170820/pcback01_20170820.jpg") no-repeat center;
+	-o-background-size: 100%;
+}
+.pctext08{
+	margin: 0 auto;
+	width: 1020px;
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+}
+.pctext08>span{
+	display: inline-table;
+	font-size: 72px;
+	color: #f90;
+}
+.pctext09{
+	margin: 0 auto;
+	width: 1020px;
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 12px;
+	text-indent: 12px;
+}
+
+
+/*企业logo*/
+.pcmain05{
+	padding: 60px 0;
+	background: #f5f5f5;
+	text-align: center;
+}
+.pctext10{
+	margin: 30px 0 60px;
+	font-size: 30px;
+	font-weight: 500;
+}
+.pcbox06{
+	margin: 10px auto;
+	width: 1020px;
+	display: flex;
+	justify-content: space-between;
+}
+.pcqlogo{
+	width: 105px;
+	height: 105px;
+	background: #fff;
+	box-shadow: 1px 1px 3px #eee;
+}
+.pcimg07{
+	margin: 20px auto 10px;
+	width: 38px;
+	display: block;
+}
+.pctext11{
+	font-size: 12px;
+	color: #333;
+}
+

@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/*  .pcmain15~      .pcbox21~       .pctext26~      .pcimg15~   */
+
+/*banner*/
+.pcbannersmall01{
+	position: relative;
+	top:66px;
+	width: 100%;
+	min-width: 1020px;
+	background: url("../images/pc_20170820/pcbanner04_20170820.jpg") no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.pcbox21{
+	margin: 0 auto;
+	width: 1020px;
+	height: 480px;
+	text-align: center;
+}
+.pctext26{
+	padding-top: 150px;
+	font-size: 36px;
+	letter-spacing: 5px;
+	line-height: 90px;
+	text-shadow: 0 0 1px #fff;
+	font-weight: 500;
+}
+.pctext27{
+	font-size: 16px;
+	line-height: 24px;
+	text-shadow: 0 0 1px #fff;
+	font-weight: 500;
+}
+.pctext28{
+	margin: 30px auto;
+	display: block;
+	background: #fff;
+	width: 240px;
+	font-size: 18px;
+	color: #00b0f0;
+	line-height: 50px;
+	border-radius: 25px;
+	text-align: center;
+}
+.pctext28:hover{
+	color: #fff;
+	background: #00b0f0;
+}
+
+
+/*saas service*/
+.pcmain15{
+	margin: 120px auto 60px;
+	width: 1020px;
+	text-align: center;
+}
+.pctext29{
+	font-size: 36px;
+	line-height: 72px;
+	color: #333;
+}
+.pctext30{
+	margin: 15px;
+	font-size: 14px;
+	color: #999;
+	line-height: 24px;
+}
+.pcbox22{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.pcbox23{
+	padding: 30px 0;
+	width: 248px;
+}
+.pcimg15{
+	margin: 15px 0;
+	width: 75px;
+}
+.pctext31{
+	font-size: 18px;
+	color: #00b0f0;
+	line-height: 45px;
+}
+.pctext32{
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+}
+
+/*收费标准*/
+.pcmain16{
+	padding: 60px 0 30px;
+	min-width: 1020px;
+	background: url("../images/pc_20170820/pcback09_20170820.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+.pctext33{
+	font-size: 36px;
+	color: #333;
+	letter-spacing: 5px;
+	line-height: 60px;
+}
+.pctext34{
+	font-size: 16px;
+	color: #999;
+	text-transform: uppercase;
+}
+.pcbox24{
+	margin: 0 auto;
+	padding: 30px 0 0;
+	width: 1020px;
+	display: flex;
+	justify-content: space-between;
+}
+.pcbox25{
+	margin: 60px 0;
+	padding: 30px;
+	width: 210px;
+	height: 540px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ddd;
+}
+.pcbox26{
+	margin: 60px 0;
+	padding: 29px;
+	width: 210px;
+	height: 540px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ddd;
+	border: solid 1px #fa0;
+}
+.pctext35{
+	font-size: 36px;
+	color: #666;
+	line-height: 60px;
+}
+.pctext36{
+	font-size: 24px;
+	color: #333;
+	line-height: 60px;
+}
+.pctext37{
+	font-size: 14px;
+	color: #aaa;
+	line-height: 20px;
+}
+.pctext38{
+	font-size: 16px;
+	color: #333;
+}
+.martop40{
+	margin-top: 40px;
+}
+.martop50{
+	margin-top: 50px;
+}
+.line01{
+	margin: 30px 0 15px;
+	width: 210px;
+	height: 1px;
+	background: #ccc;
+}
+.pcimg16{
+	width: 464px;
+}
+.pctext39{
+	font-size: 36px;
+	color: #f90;
+	line-height: 60px;
+}
+.pctext40{
+	font-size: 24px;
+	color: #f90;
+	line-height: 60px;
+}
+.pctext40>span{
+	font-size: 16px;
+	color: #333;
+}
+
+/*服务内容*/
+.pcmain17{
+	padding: 60px 0;
+	min-width: 1020px;
+	text-align: center;
+}
+.pcbox27{
+	margin: 60px auto 0;
+	width: 1020px;
+	display: flex;
+	justify-content: space-between;
+}
+.pcbox28{
+	width: 200px;
+	height: 270px;
+	background: #fafafa;
+	border: solid 1px #eee;
+	font-size: 16px;
+	color: #999;
+	line-height: 30px;
+}
+.pcimg17{
+	margin: 70px auto 30px;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.pcimg18{
+	margin: 70px auto 30px;
+	display: none;
+	width: 40px;
+	height: 40px;
+}
+
+
+/*支付方式*/
+.pcmain18{
+	padding: 60px 0;
+	background: #f8f8f8;
+	text-align: center;
+}
+.pctext41{
+	font-size: 16px;
+	color: #999;
+	line-height: 90px;
+}
+.pcbox29{
+	margin: 0 auto;
+	width: 175px;
+	display: flex;
+	justify-content: space-between;
+}
+.pcbox29>span{
+	font-size: 24px;
+	font-weight: 700;
+	color: #999;
+	line-height: 60px;
+}
+.pcimg19{
+	width: 60px;
+	vertical-align: middle;
+}

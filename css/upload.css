@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+body{
+	height: 95vh;
+	background: url("../images/pc_20170820/pcback11_20170820.jpg") no-repeat center;
+	background-size: cover;
+}
+.pcnavs{
+	width: 100%;
+	background: #00b0f0;
+}
+.pcnavslogo{
+	padding: 18px;
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+.pcnavimg{
+	padding: 0 20px 0 0;
+	height: 30px;
+	display: block;
+	float: left;
+}
+.logins{
+	margin: 120px auto;
+	width: 1020px;
+	display: flex;
+	justify-content: flex-end;
+}
+.loginss{
+	width: 360px;
+}
+.loginbox1{
+	display: flex;
+}
+.loginbtn{
+	width: 180px;
+	background: rgba(255,255,255,.3);
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 50px;
+}
+.radl{
+	border-top-left-radius: 6px;
+}
+.radr{
+	border-top-right-radius: 6px;
+}
+.tt{
+	background: rgba(255,255,255,.7);
+	box-shadow: 2px -1px 1px #ddd;
+	color: #00b0f0;
+}
+
+.logincontion{
+	padding: 35px 45px;
+	height: 240px;
+	background: rgba(255,255,255,.7);
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	text-align: center;
+}
+.dis1{
+	display: block;
+}
+.dis2{
+	display: none;
+}
+.pctext71{
+	display: block;
+	margin: 10px auto 20px;
+	padding: 12px 20px;
+	width: 228px;
+	background: #fff;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #eee inset;
+	font-size: 14px;
+	color: #ccc;
+	line-height: 21px;
+}
+.logbtn1{
+	margin: 0px auto 10px;
+	width: 270px;
+	background: #00b0f0;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #ccc;
+	font-size: 14px;
+	color: #fff;
+	line-height: 45px;
+}
+.logbtn1:hover{
+	background: #00a8e8;
+	color: #eee;
+}
+.logbtn2{
+	display: block;
+	margin: 10px auto;
+	width: 148px;
+	background: #fff;
+	border: solid 1px #00b0f0;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #00b0f0;
+	line-height: 33px;
+}
+.logbtn2:hover{
+	background: #00b0f0;
+	color: #fff;
+}
+
+.pctext72{
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	line-height: 240px;
+}
+
+
+
+
+.pcbtm{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	background: #fff;
+	bottom: 0;
+	font-size: 12px;
+	color: #666;
+	line-height: 60px;
+}
+
+
+@media (max-width: 1366px) {
+	.logins {
+		margin: 75px auto;
+	}
+}

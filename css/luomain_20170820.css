@@ -1,0 +1,521 @@
+@charset "utf-8";
+
+
+
+	.luoboxx05{
+		display: none;
+	}
+	.flr{
+		float: left;
+	}
+/*屏幕最小736px(iphone6s plus横屏)*/
+@media (max-width: 736px) {
+	.pcduan{
+		display: none;
+	}
+	.luodiye{
+		display: block;
+	}
+	/*顶部*/
+	.topnav{
+		top: 0rem;
+		position: fixed;
+		overflow: hidden;
+		z-index: 100;
+		width: 100%;
+		background: #f0f0f8;
+
+	}
+	.luoimg01{
+		display: block;
+		margin: .5rem;
+		width: 7rem;
+		float: left;
+	}
+    .luobox01{
+	    float: right;
+		margin: .5rem;
+	    padding: .3rem;
+	    display: block;
+	    background: rgb(0,176,240);
+	    border-radius: .2rem;
+    }
+    .luoimg02{
+	    margin: .1rem .3rem 0 .5rem;
+	    display: block;
+	    width: 1.2rem;
+	    float: left;
+    }
+    .luotext01{
+	    padding: 0 .3rem;
+	    font-size: .8rem;
+	    color: #fff;
+	    line-height: 1rem;
+    }
+	.luoboxx05{
+		display: block;
+		margin-top: 2.9rem;
+		background: #fff;
+		font-size: 14px;
+		color:#000;
+		width: 100%;
+	}
+	.luoimgg05{
+		width: 100%;
+	}
+	.rg{
+		margin: 0;
+	}
+
+
+	/*简介*/
+	.luomain01{
+		margin: 3.5rem auto 3rem;
+		text-align: center;
+	}
+	.luotext02{
+		font-size: 1.5rem;
+		font-weight: 400;
+		color: rgb(0,176,240);
+		letter-spacing: .1rem;
+		line-height: 2.5rem;
+	}
+	.luotext03{
+		font-size: .8rem;
+		font-weight: 300;
+		line-height: 1.5rem;
+	}
+    .luoimg03{
+	    margin-top: 1.8rem;
+	    width: 80%;
+    }
+
+
+    /*价值*/
+	.luomain02{
+		margin: 3.5rem auto;
+		line-height: 1.3rem;
+	}
+    .luobox03{
+	    margin: 0 auto;
+	    text-align: center;
+    }
+    .luotext04{
+	    display: inline-block;
+	    width: 3rem;
+	    height: 1px;
+	    border-bottom: solid 1px #ccc;
+	    vertical-align: middle;
+    }
+    .luotext05{
+		margin: 0 .3rem;
+	    font-size: 1.4rem;
+	    font-weight: 700;
+	    color: #666;
+	    letter-spacing: .05rem;
+	    vertical-align: middle;
+    }
+    .martop{
+	    margin-top: 2rem;
+    }
+    .luobox04{
+		display: inline-block;
+		width: 30%;
+    }
+    .luoimg04{
+	    padding: 2rem 0 1rem;
+	    width: 3rem;
+    }
+	.luotext06{
+		font-size: 1.1rem;
+		font-weight: 500;
+		line-height: 1.5rem;
+	}
+	.luotext031{
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.5rem;
+	}
+
+
+	/*功能*/
+	.luomain03{
+		margin: 4rem 0 0rem;
+	}
+	.luobox05{
+		background: #fff;
+		font-size: 14px;
+		color:#000;
+		width: 100%;
+	}
+
+
+	.swiper-container, .swiper-container1 {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		width: 100%;
+		height: 30px;
+
+		/* Center slide text vertically */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	.luotext021{
+		font-size: 1rem;
+		font-weight: 400;
+		color: rgb(0,176,240);
+		letter-spacing: .1rem;
+		line-height: 1.8rem;
+	}
+	.luobox06{
+		margin: 2rem auto 2rem;
+		width: 100%;
+		overflow: hidden;
+	}
+	.luoimg05{
+		display: block;
+		margin: 0 auto;
+		width: 60%;
+	}
+	.luoimg051{
+		display: block;
+		margin: 0 auto 2rem;
+		width: 35%;
+	}
+	.luotext07{
+		font-size: .5rem;
+		font-weight: 300;
+		line-height: 1.5rem;
+		padding-bottom: 2rem;
+	}
+
+
+	/*动态*/
+	.luomain04{
+		padding: 2rem 2rem 2.5rem;
+		background: url("../images/luodiye2/3-1.jpg") no-repeat bottom;
+		background-size: 100% ;
+	}
+	.luobox07{
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+	}
+	.luotext08{
+		font-size: 2em;
+	}
+	.realtime{
+		margin: 0 .2rem 0 0;
+		font-size: 1.5em;
+		color: #f90;
+		font-weight: 600;
+		display: inline-table;
+	}
+	.luotext09{
+		font-size: 2em;
+		text-indent: .3em;
+		letter-spacing: .3em;
+	}
+
+	/*底部*/
+	.luomain05{
+		padding: 2rem;
+		background: url("../images/luodiye2/4-1.jpg") no-repeat bottom;
+		background-size: 100% auto;
+		font-size: .9em;
+		color: #ccc;
+	}
+	.imgluo05{
+		margin-top: .45rem;
+		margin-right: .4rem;
+		width: 1.1rem;
+	}
+	.luotext15{
+		margin: .5rem 0;
+	}
+	.luotext15>div{
+		font-size: .5rem;
+		line-height: 1.3rem;
+	}
+	.luotext16{
+		padding: .65rem;
+		background: #191923;
+		font-size: .45em;
+		line-height: 1.6em;
+		color: #666;
+		text-align: center;
+	}
+
+
+
+}
+
+/*屏幕最小667px(iphone6s)横屏*/
+@media (max-width: 667px) {
+	.pcduan{
+		display: none;
+	}
+	.luodiye{
+		display: block;
+	}
+	.imgluo05 {
+		margin-top: .4rem;
+		width: .85rem;
+
+	}
+
+	.luotext15 {
+		font-size: .8rem;
+	}
+
+	.luotext15 > div {
+		font-size: .5rem;
+		line-height: 1rem;
+
+	}
+}
+
+@media (max-width: 640px) {
+	.pcduan{
+		display: none;
+	}
+	.luodiye{
+		display: block;
+	}
+	.imgluo05 {
+		margin-top: .3rem;
+		width: .8rem;
+
+	}
+
+	.luotext15 {
+		font-size: .8rem;
+	}
+
+	.luotext15 > div {
+		font-size: .8rem;
+		line-height: 1.5rem;
+
+	}
+}
+
+
+
+
+
+/*屏幕最小414px(iphone6s plus)*/
+@media (max-width: 414px) {
+	.pcduan{
+		display: none;
+	}
+	.luodiye{
+		display: block;
+	}
+
+	/*顶部*/
+	.luoimg01{
+		display: block;
+		margin: .5rem;
+		width: 7rem;
+		float: left;
+	}
+	.luobox01{
+		margin: .5rem;
+		padding: .3rem;
+		border-radius: .2rem;
+	}
+	.luoimg02{
+		margin: .1rem .3rem 0 .5rem;
+		width: 1.2rem;
+	}
+	.luotext01{
+		padding: 0 .3rem;
+		font-size: .8rem;
+		line-height: 1rem;
+	}
+
+
+
+
+	/*简介*/
+	.luomain01{
+		margin: 3.5rem auto 3rem;
+		line-height: 1.5rem;
+	}
+	.luotext02{
+		font-size: 1rem;
+		letter-spacing: .1rem;
+		line-height: 1.8rem;
+	}
+	.luotext03{
+		font-size: .8rem;
+		font-weight: 300;
+	}
+	.luoimg03{
+		margin-top: 1.8rem;
+		width: 80%;
+	}
+
+
+	/*价值*/
+	.luomain02{
+		margin: 3.5rem auto;
+		line-height: 1.3rem;
+	}
+	.luobox03{
+		margin: 0 auto;
+	}
+	.luotext04{
+		width: 3rem;
+		height: 1px;
+		border-bottom: solid 1px #ccc;
+	}
+	.luotext05{
+		margin: 0 .3rem;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: .05rem;
+	}
+	.martop{
+		margin-top: 2rem;
+	}
+	.luobox04{
+		width: 30%;
+	}
+	.luoimg04{
+		padding: 2rem 0 1rem;
+		width: 3rem;
+	}
+	.luotext06{
+		font-size: 1rem;
+		font-weight: 500;
+	}
+	.luotext031{
+		font-size: .8rem;
+		font-weight: 300;
+		line-height: 1.5rem;
+	}
+
+
+	/*功能*/
+	.luomain03{
+		margin: 4rem 0 .5rem;
+	}
+	.luobox05{
+		font-size: 14px;
+	}
+
+
+	.swiper-slide {
+		font-size: 18px;
+		height: 30px;
+
+	}
+	.luotext021{
+		font-size: 1rem;
+		font-weight: 400;
+		letter-spacing: .1rem;
+		line-height: 1.8rem;
+	}
+	.luobox06{
+		margin: 2rem auto 1.5em;
+	}
+	.luoimg05{
+		margin: 0 auto;
+		width: 60%;
+	}
+	.luoimg051{
+		margin: 0 auto 2rem;
+		width: 48%;
+	}
+
+
+	/*动态*/
+	.luomain04{
+		padding: 2rem 2rem 2.5rem;
+	}
+	.luobox07{
+		margin: 0 auto;
+	}
+	.luotext08{
+		font-size: 1.4em;
+	}
+	.realtime{
+		margin: 0 .2rem 0 0;
+		font-size: 1.5em;
+		font-weight: 600;
+	}
+	.luotext09{
+		font-size: 1.4em;
+		text-indent: .3em;
+		letter-spacing: .3em;
+	}
+
+	/*底部*/
+	.luomain05{
+		padding: 2rem;
+		font-size: .8em;
+	}
+	.imgluo05{
+		margin-top: .2rem;
+		margin-right: .4rem;
+		width: 1rem;
+	}
+	.luotext15{
+		font-size: .8rem;
+	}
+
+	.luotext15>div{
+		font-size: .8rem;
+		line-height: 1.4rem;
+	}
+	.luotext16{
+		padding: .7rem;
+		font-size: .7em;
+		line-height: 1.6em;
+	}
+
+
+
+}
+
+
+
+/*屏幕最小360px(其他型号)*/
+@media (max-width: 375px) {
+	.pcduan{
+		display: none;
+	}
+	.luodiye{
+		display: block;
+	}
+	.luoimg051{
+		width: 55%;
+	}
+	.imgluo05{
+		margin-top: .15rem;
+		margin-right: .4rem;
+		width: 1rem;
+	}
+	.luotext15>div{
+		line-height: 1.4rem;
+	}
+
+
+}
